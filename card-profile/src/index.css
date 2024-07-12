@@ -1,0 +1,28 @@
+.card-container {
+  background-color: rgba(72, 70, 70, 0.804);
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  padding: 20px;
+}
+.card{
+  border: 1px solid black;
+  display: block;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px;
+  max-width: 300px;
+  background-color: #fff;
+  color: black;
+  font-weight: 400;
+}
+.head {
+  text-align: center;
+  justify-content: center;
+}
+.heading {
+  text-align: center;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+  padding: 15px;
+}
